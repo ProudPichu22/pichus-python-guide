@@ -1,0 +1,21 @@
+Type Hinting:
+
+Type hinting is not necessary but it can allow others to identify what does what by only looking at the definition of the function.
+For example:
+
+
+def foo(foo1: int, foo2: str) -> None:
+	pass
+
+def foo2(temp: int) -> [None, Bool]:
+
+
+Variable type hinting also works when defining a variable.
+
+-- Layout
+
+variable: type = data
+
+def func(variable: type) -> return type:
+
+--
